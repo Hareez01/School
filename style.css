@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+.footer{
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+}
+.container{
+    background: lightgrey;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.eNav{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey;
+    margin-top: 10px;
+}
+.eNav h2{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.font{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+.font .fa-whatsapp, .fa-facebook,.fa-instagram{
+    margin: 30px;
+}
+.logo{
+    background: rgb(100, 83, 83);
+    color: rgb(230, 220, 220);
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(90, 38, 90);
+}
+.navv ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    margin-top: 20PX;
+}
+.navv ul li a{
+    height: 100px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+}
+.navv ul li:hover{
+    background: whitesmoke;
+}
+.navv ul li a:hover{
+    /* background: white; */
+    color: black;
+}
+/* end of nav */
+.homePage{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin-top: 45px;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./img/teacter.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+.homePage h1{
+    margin-top: 150px;
+}
+.homePage button{
+    text-decoration: none;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 10px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background: transparent;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+}
+.homePage button:hover{
+    background: gray;
+}
+.homePage button a:hover{
+    background: none;
+}
+.homePage button a{
+    color: aliceblue;
+}
+.learning{
+    padding: 10px;
+
+}
+.learning h3{
+    font-family: cursive;
+}
+.actii{
+    padding: 10px;
+    font-size: larger;
+}
+.acttti{
+    width: 50%;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.activi1{
+    background: url(./img/azhr16.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activi3{
+    background: url(./img/azhr17.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activi5{
+    background: url(./img/azhr18.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activi7{
+    background: url(./img/azhr19.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activi9{
+    background: url(./img/azhr20.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.activi11{
+    background: url(./img/azhr20.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* end of view */
+.our{
+    padding: 25px;
+    font-size: 18px;
+}
+.our li{
+    list-style: disc;
+    font-weight: bold;
+}
+.mail input{
+    width: 500px;
+    margin-left: 450px;
+}
+.mail h3{
+    margin-top: 50px;
+}
+.mail{
+    height: 300px;
+    background: blue;
+}
+.mail button{
+    border-radius: 4px;
+    width: 500px;
+    margin-left: 450px;
+    background: white;
+    color: blue;
+}
+/* end of homepage content */
+.about{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./img/sch.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(221, 218, 218);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin-top: 45px;
+}
+.about h1, h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+.pi{
+    width: 24%;
+    height: 400px;
+}
+.note1{
+    background: url(./img/library.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.note2{
+    background: url(./img/hall.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.note3{
+    background: url(./img/discussion.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.note4{
+    background: url(./img/sport.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* end of about */
+.profile{
+    background: url(./img/sch.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+form{
+    height: 300px;
+    width: 250px;
+    background: rgb(14, 43, 53);
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ form h1{
+    text-align: center;
+    background: white;
+    margin-bottom: 30px;
+    
+}
+input{
+    border-radius: 5px;
+    border: 0;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 16px;
+    margin-left: 15px;
+} 
+button{
+    padding: 8px 20px;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+button:hover{
+    background: black;
+    color: white;
+}
+small{
+    color: white;
+    font-size: 12px;
+}
+small a{
+    color: lightblue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+/* end of profile */
+.contact{
+    padding: 10px;
+    background-color: rgb(65, 65, 204);
+    color: aliceblue;
+}
+.contact h1{
+    text-align: center;
+}
+.contact h2{
+    margin-bottom: 10px;
+}
+.fa-map-marker, .fa-phone, .fa-envelope{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.pp{
+    margin-bottom: 8px;
+}
+.Address{
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.send{
+    padding: 10px;
+}
+.send form{
+    width: 100%;
+    padding: 10px 20px;
+}
+.send input{
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 16px;
+}
+/* end of contact */
+.whole{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.act{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./img/IMG-20230102-WA0013.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 45px;
+    height: 100px;
+    color: aliceblue;
+}
+.acti{
+    width: 80%;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+.activ1{
+    background: url(./img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.activ3{
+    background: url('./img/2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.activ5{
+    background: url('./img/3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.activ7{
+    background: url('./img/4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.activ9{
+    background: url('./img/5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.activ11{
+    background: url('./img/6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* end of acitivies */
+.div{
+    padding: 20px;
+}
+.actti{
+    height: 200px;
+    width: 80%;
+    margin-left: 140px;
+}
+.actti h1{
+    text-align: center;
+}
+.activv1{
+    background: url('./img/studying_science-768x498.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.activv3{
+    background: url('./img/11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.activv5{
+    background: url('./img/22.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.activv7{
+    background: url('./img/33.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.activv9{
+    background: url('./img/44.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.activv11{
+    background: url('./img/55.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    @media screen and (max-width:375px){
+        .about{
+            width: 100%;
+            padding: 0;
+        }
+        .pic{
+            flex-direction: column;
+            width: 100%;
+            padding: 5px;
+        }
+        .pi{
+            margin-top: 20px;
+            width: 370px;
+        }
+        form{
+            flex-direction: column;
+            width: 100%;
+        }
+        .div{
+            padding: 5px;
+            width: 100%;
+        }
+        .acti{
+            width: 100%;
+            margin-left: 0;
+        }
+        .actti{
+            width: 100%;
+            margin-left: 0;
+            /* width: 100%; */
+            margin-left:  0;
+            margin-bottom: 350px;
+        }
+        .actti h1{
+            width: 100%;
+            text-align: left;
+        }
+        .activv1{
+            margin-left: 0;
+            width: 100%;
+        }
+        .activv3{
+            margin-left: 0;
+            width: 100%; 
+            margin-top: 320px;
+        }
+        .activv5{
+            margin-left: 0;
+            width: 100%;
+            margin-top: 370px;
+        }
+        .activv7{
+            margin-left: 0;
+            width: 100%;
+            margin-top: 320px;
+        }
+        .activv9{
+            margin-left: 0;
+            width: 100%;
+            margin-top: 320px;
+        }
+        .activv11{
+            margin-left: 0;
+            width: 100%;
+            margin-top: 320px;
+        }
+        .eNav{
+            margin-top: 300px;
+        }
+        .footer{
+            width: 100%;
+        }
+        .acttti{
+            width: 100%;
+            margin-left: 0;
+        }
+        .mail{
+            padding: 10px;
+        }
+        .mail input{
+            width: 100%;
+            margin-left: 0;
+        }
+        .mail button{
+            width: 100%;
+            margin-left: 0;
+        }
+        .nav{
+            flex-direction: column;
+            width: 100;
+        }
+        .navv ul{
+            flex-direction: column;
+            width: 100%;
+        }
+    }
